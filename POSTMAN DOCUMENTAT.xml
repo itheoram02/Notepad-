@@ -1,0 +1,52 @@
+REST API Documentations:
+01.
+HTTP Method: GET
+EndpointUrl: https://techfios.com/api-prod/api/product/read.php
+Header:
+"Content-Type" : "application/json; charset=UTF-8"
+Status Code: 200
+02.
+HTTP Method: GET
+EndpointUrl: https://techfios.com/api-prod/api/product/read_one.php
+Header:
+"Content-Type" : "application/json"
+QueryParam: 
+"id":"value"
+Status Code: 200
+03.
+HTTP Method: POST
+EndpointUrl: https://techfios.com/api-prod/api/product/create.php
+Header:
+"Content-Type" : "application/json; charset=UTF-8"
+Status Code: 201
+Payload/Body: 
+{
+    "name": "Amazing Pillow 2.0 By MD",
+    "price": "199",
+    "description": "The best pillow for amazing programmers.",
+    "category_id": 2
+}   
+04.
+HTTP Method: PUT
+EndpointUrl: https://techfios.com/api-prod/api/product/update.php
+Header:
+"Content-Type" : "application/json; charset=UTF-8"
+Status Code: 200
+Payload/Body: 
+{
+     "id": "4562",
+    "name": "Amazing Pillow 3.0 By MD",
+    "price": "299",
+    "description": "The updated pillow for amazing programmers.",
+    "category_id": 2
+}  
+05. 
+HTTP Method: DELETE
+EndpointUrl: https://techfios.com/api-prod/api/product/delete.php
+Header:
+"Content-Type" : "application/json; charset=UTF-8"
+Status Code: 200
+Payload/Body: 
+{
+    "id": "4562"   
+}

@@ -1,0 +1,39 @@
+REST API DOCUMENTATIONS:
+
+GET https://techfios.com/api-prod/api/product/read.php
+http metod :POST
+
+GET https://techfios.com/api-prod/api/product/read_one.php?id=65
+
+HEADER:
+Content -type :
+
+POST https://techfios.com/api-prod/api/product/create.php
+  
+{
+    "name" : "Amazing Pillow 2.0",
+    "price" : "199",
+    "description" : "The best pillow for amazing programmers.",
+    "category_id" : 2,
+    "created" : "2018-06-01 00:35:07"
+}
+  
+
+PUT https://techfios.com/api-prod/api/product/update.php
+  
+{
+    "id" : "106",
+    "name" : "Amazing Pillow 3.0",
+    "price" : "255",
+    "description" : "The best pillow for amazing programmers.",
+    "category_id" : 2,
+    "created" : "2018-08-01 00:35:07"
+}
+  
+
+DEL https://techfios.com/api-prod/api/product/delete.php
+  
+{
+    "id" : "60"
+}
+  

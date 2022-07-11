@@ -1,0 +1,8 @@
+01.Open snipping tool
+02.Click on new
+03.Select area to snip
+04.Click on save symbol
+05.Select directory
+06.Provide File name
+07.Select file extention(.JPEG/.PNG)
+08.Click Save
